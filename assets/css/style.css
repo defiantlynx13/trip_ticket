@@ -1,0 +1,343 @@
+@font-face {
+  font-family:'IRANSansWeb';
+  src:url('fonts/IRANSansWeb.eot');
+  src:url('fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+  url('fonts/IRANSansWeb.woff') format('woff'),
+  url('fonts/IRANSansWeb.ttf') format('truetype');
+  font-style:normal;
+}
+body{
+    font-family:'IRANSansWeb' !important;
+}
+.list_table{
+    border:1px solid #eee;
+    border-radius:5px;
+    margin-top:20px;
+    box-shadow:0 0 10px #eee !important;
+    margin-top:0;
+	font-size:14px;
+}
+select{
+	padding: 3px 3px !important;
+}
+.list_table tbody tr:nth-child(2n+1){
+    background:#fafafa;
+}
+.list_table th, .list_table td{
+    padding:15px;
+	vertical-align: middle !important;
+}
+.list_table td{
+	border-top:none !important;
+}
+a:hover, a{
+    box-shadow:none !important;
+}
+#user_login, #user_pass, #melli, #phone, #name, #family, #email, #password, #conpassword, #cpassword, #mobile{
+    margin-top: 12px;
+    width: 50%;
+    box-shadow:0 0 5px #eee inset;
+}
+#sex{
+    margin-top: 12px;
+}
+#wp-submit{
+    margin-top: 15px;
+    background: #87907D;
+    font-family:'IRANSansWeb' !important;
+    font-weight:normal;
+    font-size:13.5px;
+	border:none;
+	border-radius:3px !important;
+	box-shadow:0 0 10px #ddd;
+	color:#fff;
+	padding: 7px 20px;
+}
+.panel_desc{
+    padding:15px;
+    border:1px solid #eee;
+    border-radius:5px;
+    background:#FAFAFA;
+}
+.panel_desc p{
+    margin-bottom:11px;
+}
+.panel_desc h6{
+    margin-bottom:15px;
+}
+.search_ticket a{
+    background: #90A4AE;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius:3px;
+}
+.delete_basket{
+    border:1px solid #d32f2f !important;
+    color: #d32f2f;
+    padding: 2px 10px;
+    border-radius:3px;
+    transition:.5s;
+}
+.delete_basket:hover{
+    border:1px solid #d32f2f !important;
+    color:#d32f2f !important;
+    transition:.5s;
+}
+.checkout_link{
+    background: #87907D;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 3px;
+    float: left;
+    transition:.5s;
+    box-shadow: 0 0 10px #ddd !important;
+	font-size:14px !important; 
+}
+.checkout_link:hover{
+    color:#fff !important;
+    background:#555 !important;
+    transition:.5s;
+}
+.online_pay{
+    background:#fafafa;
+    background: #fafafa;
+    display: inline-block;
+    padding: 30px 50px;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    margin-top: 20px;
+    float: left;
+}
+.online_pay .paymenter{
+    width: 100%;
+	background: #546E7A !important;
+	padding: 10px 10px !important;
+	font-family: IRANSansWeb !important;
+	font-weight: normal !important;
+	font-size: 14px !important;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	box-shadow: 0 0 10px #ddd;
+	margin-top: 10px;
+}
+.online_pay .paymenter:hover{
+    background:#37474F !important;
+    transition:.3s;
+}
+.discount-form{
+    display:none;
+    overflow:hidden;
+    margin-bottom:25px;
+}
+.have-code{
+    cursor:pointer;
+    color:rgba(0,150,136,1);
+    margin-bottom:5px !important;
+    /*text-align:center;*/
+    display: inherit;
+}
+.input_code{
+    height: 35px;
+    border: 1px solid #bbb;
+    width: 75%;
+    font-size: 16px;
+    padding-right: 5px;
+    border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    float:right;
+    border-left:none;
+}
+.submit_code{
+    height: 35px;
+    border: 1px solid #bbb;
+    width: 25%;
+    font-size: 14px;
+	color:#fff;
+    padding: 0px !important;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-family:'IRANSansWeb' !important;
+    float:right;
+    background:rgba(69,90,100 ,1) !important;
+}
+.newpass-sho{
+	font-size:14.5px;
+}
+.newpass-sho input[type=text], .newpass-sho input[type=password], .newpass-sho input[type=email]{
+    border: 1px solid #bbb;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 250px;
+    font-size: 14px;
+    padding-right: 7px;
+    font-family:IRANSansWeb;
+	margin-bottom:20px;
+}
+.newpass-sho input[type=submit]{
+	font-family: IRANSansWeb;
+	background: rgba(69,90,100 ,1);
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	padding: 5px 15px;
+	box-shadow: 0 0 10px #ddd;
+	border-radius: 3px;
+}
+.newpass-sho select{
+    width:70px;
+    margin-top:10px;
+    height:40px;
+}
+.newpass-sho input[type=radio]{
+    margin-top:10px;
+}
+.TT_filter{
+	height: 40px;
+	font-size: 12px;
+	float:left;
+	background:#449d44 !important;
+	font-family:IRANSansWeb;
+	font-weight:normal;
+	padding: 7px 14px;
+	color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 0 10px #ddd;
+	border:none;
+}
+.ticket_by_list{
+	box-shadow:none;
+	background:#33b5e5;
+	height: 27px;
+	font-size: 12px;
+	font-family:IRANSansWeb;
+	font-weight:normal;
+	border: none;
+	border-radius: 3px;
+	/* box-shadow: 0 0 10px #ddd; */
+	color: #fff;
+	padding: 0px 17px;
+}
+#wpadminbar{
+	display:none !important;
+}
+.add_to_cartta{
+	background:#87907D;
+	box-shadow:none;
+	float: left;
+	font-family:IRANSansWeb;
+	box-shadow:0 0 5px #ddd;
+	border-radius:3px;
+	border:none;
+	padding:5px 15px;
+	color:#fff;
+}
+.entry-content table{
+	border:none !important;
+	border-collapse: collapse !important;
+}
+.buy_log_out{
+	height:400px;
+	width:100%;
+}
+.buy_log_right{
+	width:49%;
+	float:right;
+	height:auto;
+	box-shadow:0 0 10px #eee;
+	border:1px solid #eee;
+}
+.buy_log_left{
+	width:49%;
+	float:left;
+	height:auto;
+	box-shadow:0 0 10px #eee;
+	border:1px solid #eee;
+	padding:50px;
+}
+.buy_log_right_title{
+	height:50px;
+	line-height: 50px;
+	padding-right:15px;
+	background:#fcfcfc;
+	font-size:14px;
+	border-bottom:1px solid #eee;
+	color:#555;
+}
+.in_buy_log_right{
+	padding:15px;
+	font-size:13px !important;
+}
+.in_buy_log_right #melli, .in_buy_log_right #mobile, .in_buy_log_right #name, .in_buy_log_right #family, .in_buy_log_right #email{
+	margin-top:7px;
+	width:80%;
+	border:1px solid #bbb;
+	box-shadow:none;
+}
+.in_buy_log_right #melli::placeholder, .in_buy_log_right #email::placeholder, .in_buy_log_right #mobile::placeholder, .in_buy_log_right #name::placeholder, .in_buy_log_right #family::placeholder{
+	color:#bbb;
+}
+.add_to_cart_log{
+	padding: 13px 15px !important;
+	width: 100%;
+	margin-top: 10px;
+	font-size:15px !important;
+}
+.add_to_cart_log:hover{
+	background:#555 !important;
+}
+.login_buy_log_left a{
+	font-family: IRANSansWeb;
+	background: rgba(69,90,100 ,1);
+	font-size: 14px;
+	color: #fff;
+	border: none;
+	padding: 10px 15px;
+	box-shadow: 0 0 10px #ddd !important;
+	border-radius: 3px;
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+}
+.login_buy_log_left a:hover{
+	color:#fff;
+	background:#555 !important;
+}
+.login-username label, .login-password label{
+	display:block;
+}
+.dont_exist_reset{
+	background: #fafafa;
+	margin-bottom: 30px;
+	padding: 7px 10px;
+	border-right: 2px solid red;
+	font-size: 14px;
+}
+.exist_reset{
+	background: #fafafa;
+	margin-bottom: 30px;
+	padding: 7px 10px;
+	border-right: 2px solid green;
+	font-size: 14px;
+}
+.numberlabel{
+	background: #8ED2C9;
+	padding: 5px 0px;
+	width:70px;
+	border-radius: 3px;
+	cursor: pointer;
+	margin: 8px 0px 8px 10px;
+	display:inline-block;
+	text-align:center;
+	color:#fff;
+}
+.cls input[type="radio"]{
+    display:none;
+}
+.cls input[type="radio"]:checked+label {
+  background-color: #00AAA0;
+}
+.cls input[type=radio]:checked + label:before {
+    content: "✓ ";
+}
